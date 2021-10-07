@@ -1,0 +1,51 @@
+/* You will be using CSS to style the page I've given you.  You should only make changes between the opening and closing style tags.
+
+Give the body a background color, and a width of 80%. done
+create a rule for p,h1,h2,and h3 elements. give each rule a different font, text color, and background color. done
+Make sure you can read everything. It doesn't have to look "good", but I need to be able to read it.
+Give the main a background color. done
+Give the footer italic text and a background-color done*/
+
+
+h1 {
+  font: 35px arial;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+}
+
+h2 {
+  font: 30px garamond,serif;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: blue
+
+}
+
+h3 {
+  font: 25px georgia,serif;
+  font-weight: bold;
+  background-color: limegreen;
+  color: black;
+}
+
+body {
+  width: 80%;
+  background-color: lightblue;
+}
+
+main {
+  background-color: yellow;
+}
+
+p {
+  font: 15px georgia;
+  color: white;
+  background-color: black;
+
+}
+footer {
+  font-style: italic;
+  background-color: gray;
+  color: white;
+}
