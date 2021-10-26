@@ -1,0 +1,35 @@
+.image {
+  height: 300px;
+}
+
+main {
+  background-color: rgb(100, 98, 98);
+  color:white;
+}
+
+body {
+  background-image: url('bg1.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: url("icon.jpg")
+}
+
+#specialborder {
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(border-image-5.png) 30 round;
+}
+
+
+a {
+  color: white;
+}
