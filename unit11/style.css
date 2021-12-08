@@ -28,7 +28,7 @@ a {
 	background-color: black;
 }
 
-#comments {
+#comments, #address1, #address2, #city, #state, #zip, #name, #email,#birthday {
 	background-color: white;
 	border: 1px solid black;
 	color: black;
