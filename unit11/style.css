@@ -28,7 +28,7 @@ a {
 	background-color: black;
 }
 
-#comments, #address1, #address2, #city, #state, #zip, #name, #email,#birthday {
+#comments, #address1, #address2, #city, #state, #zip, #name, #email,#birthday, #social_media {
 	background-color: white;
 	border: 1px solid black;
 	color: black;
