@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="/unit11/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" maxlength="30">
+		</form>
+		<br>
+		<form>
+			<fieldset>
+				<legend>What is your favorite month?</legend>
+				<input type="radio" id="january" name="fav_month" value="january">
+				<label for="january">January</label><br>
+				<input type="radio" id="february" name="fav_month" value="february">
+				<label for="february">February</label><br>
+				<input type="radio" id="march" name="fav_month" value="march">
+				<label for="march">March</label><br>
+				<input type="radio" id="april" name="fav_month" value="april">
+				<label for="april">April</label><br>
+				<input type="radio" id="may" name="fav_month" value="may">
+				<label for="may">May</label><br>
+				<input type="radio" id="june" name="fav_month" value="june">
+				<label for="june">June</label><br>
+				<input type="radio" id="july" name="fav_month" value="july">
+				<label for="july">July</label><br>
+				<input type="radio" id="august" name="fav_month" value="august">
+				<label for="august">August</label><br>
+				<input type="radio" id="september" name="fav_month" value="september">
+				<label for="september">September</label><br>
+				<input type="radio" id="october" name="fav_month" value="october">
+				<label for="october">October</label><br>
+				<input type="radio" id="november" name="fav_month" value="november">
+				<label for="november">November</label><br>
+				<input type="radio" id="december" name="fav_month" value="december">
+				<label for="december">December</label><br>
+			</fieldset>
+		</form>
+		<br>
+		<form>
+			<label for="social_media">What is your favorite social networking site?</label>
+			<select name="social_media" id="social_media">
+				<option value="fb">Facebook</option>
+				<option value="twitter">Twitter</option>
+				<option value="instagram">Instagram</option>
+				<option value="reddit">Reddit</option>
+				<option value="linkedin">LinkedIn</option>
+			</select>
+		</form>
+		<br>
+		<!--A fieldset and legend with the text “Shipping Address” around the following form controls: AddressLine1, AddressLine2, City, State, ZIP-->
+		<form>
+			<fieldset>
+				<legend>Shipping Address</legend>
+				<label for="address1">Address Line 1:</label>
+  			<input type="address1" id="address1" name="address1"><br>
+				<label for="address2">Address Line 2:</label>
+  			<input type="address2" id="address2" name="address2"><br>
+				<label for="city">City:</label>
+  			<input type="city" id="city" name="city"><br>
+				<label for="state">State:</label>
+  			<input type="state" id="state" name="state"><br>
+				<label for="zip">Zipcode:</label>
+  			<input type="zip" id="zip" name="zip"><br>
+			</fieldset>
+		</form>
+		<br>
+		<form action="webpage2.html">
+			<button id="submit" class="submit"><img src="/unit11/button_submit.png" /></button><br>
+		</form>
+		<br><br>
+		<form>
+			<input type="hidden" id="custId" name="userid" value="0000">
+			<input type="password" id="pwd" name="pwd">
+		</form>
+
+			
+    <script src="script.js"></script>
+
+		<footer>
+			<a href="/unit11/index.html">Go home?</a><br>
+			<a href = "/index.html">Wanna go back to the projects list?</a>
+		</footer>
+  </body>
+</html>

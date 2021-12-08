@@ -1,0 +1,29 @@
+table, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#submit {
+	border: none;
+
+}
+
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	background-color: gray;
+	color: white;
+}
+
+#usercomments {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: white;
+}
+
+#submitbutton {
+	background-color: black;
+}
